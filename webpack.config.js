@@ -1,5 +1,6 @@
 const path = require('path');
-const autoprefixer = require('autoprefixer');
+//const poststylus = require('poststylus');
+//const webpack = require('webpack');
 
 module.exports = {
 	entry:{
@@ -23,7 +24,4 @@ module.exports = {
 			}
 		]
 	},
-	// postcss: function () { //NEW
- //    return [autoprefixer];
- //  }
 }
