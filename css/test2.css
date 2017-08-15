@@ -1,0 +1,10 @@
+label {
+  display: block;
+}
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f00;
+  border: 3px solid #000;
+}
