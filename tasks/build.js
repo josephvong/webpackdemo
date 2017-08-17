@@ -1,4 +1,4 @@
 import gulp from 'gulp'
 import gulpSequence from 'gulp-sequence'
 
-gulp.task('build',gulpSequence('style'))
+gulp.task('build',gulpSequence(['style','webpack']))

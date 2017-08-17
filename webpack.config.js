@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
 	entry:{
-		"main":__dirname+"/app/main.js"  // 入口js文件为 main
+		"main":__dirname+"/src/app/main.js"  // 入口js文件为 main
 	},
 	output:{
 		filename:'[name].bundle.js',
@@ -17,6 +17,10 @@ module.exports = {
 				test:/\.js$/,
 				exclude:/node_modules/,
 				use:'babel-loader'
+			},
+			{
+				test:/\.css$/,
+				use:['style-loader','css-loader']
 			},
 			{
 				test:/\.styl$/,

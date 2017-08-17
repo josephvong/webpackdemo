@@ -1,6 +1,6 @@
 import "babel-polyfill" // es6 兼容插件
 
 //import autoprefixer from 'autoprefixer' 
-import'../styl/test.styl';
+import'../css/main.css';
 
-console.log("this is a entry js doc")
+console.log("this is a entry js doc2")
