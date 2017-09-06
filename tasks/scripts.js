@@ -6,7 +6,7 @@ const uglify = require('gulp-uglify');
 gulp.task('webpack',()=>{
 	return gulp.src('src/app/main.js')
 		.pipe(webpackStream(require('../webpack.config.js'),webpack))
-		.pipe(gulp.dest('dist'))
+		.pipe(gulp.dest('dist/js'))
 })
 
 
